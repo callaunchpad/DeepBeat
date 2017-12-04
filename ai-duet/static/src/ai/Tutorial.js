@@ -15,8 +15,8 @@
  */
 
 import events from 'events'
-import Tone from 'Tone/core/Tone'
-import 'style/tutorial.css'
+import Tone from '../../node_modules/tone/Tone/core/Tone.js'
+import '../../style/tutorial.css'
 
 const beat = 0.4
 const testMelody = [

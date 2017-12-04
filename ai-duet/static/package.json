@@ -28,7 +28,7 @@
     "startaudiocontext": "^1.2.0",
     "style-loader": "^0.13.1",
     "three": "^0.83.0",
-    "tone": "^0.9.0",
+    "tone": "^0.12.17",
     "url-loader": "^0.5.7",
     "webmidi": "^2.0.0-beta.1",
     "youtube-iframe": "^1.0.3"

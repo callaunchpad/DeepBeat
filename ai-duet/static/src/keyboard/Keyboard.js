@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-import AudioKeys from 'audiokeys'
-import Tone from 'Tone/core/Tone'
+import AudioKeys from '../../third_party/audiokeys.js'
+import Tone from '../../node_modules/tone/Tone/core/Tone.js'
 import events from 'events'
-import {KeyboardElement} from 'keyboard/Element'
+import {KeyboardElement} from './Element.js'
 import buckets from 'buckets-js'
-import {Midi} from 'keyboard/Midi'
-import Buffer from 'Tone/core/Buffer'
+import {Midi} from './Midi.js'
+import Buffer from '../../node_modules/tone/Tone/core/Buffer'
 
 class Keyboard extends events.EventEmitter{
 	constructor(container){

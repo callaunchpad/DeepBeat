@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-import Tone from 'Tone/core/Tone'
-import PolySynth from 'Tone/instrument/PolySynth'
-import Frequency from 'Tone/type/Frequency'
-import MonoSynth from 'Tone/instrument/MonoSynth'
-import {Sampler} from 'sound/Sampler'
+import Tone from '../../node_modules/tone/Tone/core/Tone.js'
+import PolySynth from '../../node_modules/tone/Tone/instrument/PolySynth.js'
+import Frequency from '../../node_modules/tone/Tone/type/Frequency.js'
+import MonoSynth from '../../node_modules/tone/Tone/instrument/MonoSynth.js'
+import {Sampler} from './Sampler.js'
 
 class Sound {
 	constructor(){

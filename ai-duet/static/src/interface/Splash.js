@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-import Buffer from 'Tone/core/Buffer'
-import 'style/splash.css'
+import Buffer from '../../node_modules/tone/Tone/core/Buffer.js'
+import '../../style/splash.css'
 import events from 'events'
-import Loader from 'interface/Loader'
+import Loader from './Loader.js'
 
 class Splash extends events.EventEmitter{
 	constructor(container){

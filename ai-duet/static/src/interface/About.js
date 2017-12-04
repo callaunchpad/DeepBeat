@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import 'style/about.css'
+import '../../style/about.css'
 import YouTubeIframeLoader from 'youtube-iframe'
 import events from 'events'
 

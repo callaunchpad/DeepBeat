@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import Tone from 'Tone/core/Tone'
+import Tone from '../../node_modules/tone/Tone/core/Tone.js'
 import MidiConvert from 'midiconvert'
 import events from 'events'
 

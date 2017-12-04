@@ -15,7 +15,7 @@
  */
 
 const THREE = require('three')
-import {Roll} from 'roll/Roll'
+import {Roll} from './Roll.js'
 
 const geometry = new THREE.PlaneBufferGeometry( 1, 1, 1 )
 const material = new THREE.MeshBasicMaterial( {color: 0x1FB7EC, side: THREE.BackSide} )

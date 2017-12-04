@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import 'style/glow.css'
-import Tone from 'Tone/core/Tone'
+import '../../style/glow.css'
+import Tone from '../../node_modules/tone/Tone/core/Tone.js'
 
 class Glow {
 	constructor(container){

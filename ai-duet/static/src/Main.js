@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-import {Keyboard} from 'keyboard/Keyboard'
-import {AI} from 'ai/AI'
-import {Sound} from 'sound/Sound'
-import {Glow} from 'interface/Glow'
-import {Splash} from 'interface/Splash'
-import {About} from 'interface/About'
-import {Tutorial} from 'ai/Tutorial'
+import {Keyboard} from './keyboard/Keyboard.js'
+import {AI} from './ai/AI.js'
+import {Sound} from './sound/Sound.js'
+import {Glow} from './interface/Glow.js'
+import {Splash} from './interface/Splash.js'
+import {About} from './interface/About.js'
+import {Tutorial} from './ai/Tutorial.js'
 import 'babel-polyfill'
 
 /////////////// SPLASH ///////////////////	
