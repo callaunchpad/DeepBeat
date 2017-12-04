@@ -15,10 +15,14 @@
  */
 
 var webpack = require('webpack');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 var PROD = process.argv.indexOf('-p') !== -1
 
 module.exports = {
+    plugins: [
+        new UglifyJSPlugin()
+    ],
 	'context': __dirname,
 	entry: {
 		'Main': './src/Main.js',
@@ -32,9 +36,10 @@ module.exports = {
 		root: __dirname,
 		modulesDirectories : ['node_modules', 'src', 'third_party', 'node_modules/tone', 'style'],
 	},
-	plugins: PROD ? [
-	    new webpack.optimize.UglifyJsPlugin({minimize: true})
-	  ] : [],
+	/*plugins: PROD ? [
+	    //new webpack.optimize.UglifyJsPlugin({minimize: true})
+        new UglifyJSPlugin()
+	  ] : [],*/
 	 module: {
 		loaders: [
 			{
