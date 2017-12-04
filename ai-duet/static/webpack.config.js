@@ -15,6 +15,8 @@
  */
 
 var webpack = require('webpack');
+var path = require('path');
+var resolve = require('resolve')
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
 
 var PROD = process.argv.indexOf('-p') !== -1
@@ -46,6 +48,7 @@ module.exports = {
 				test: /\.js$/,
 				exclude: /(node_modules|Tone\.js)/,
 				loader: 'babel', // 'babel-loader' is also a valid name to reference
+                include: [path.join(__dirname, './src'), resolve('src'), resolve('test')],
 				query: {
 					presets: ['es2015']
 				}
