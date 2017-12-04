@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-import {RollNote} from '../roll/RollNote.js'
+import {RollNote} from '../roll/RollNote'
 
 export class Note{
 	constructor(container, ai){

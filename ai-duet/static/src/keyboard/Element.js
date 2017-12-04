@@ -17,8 +17,8 @@
 import events from 'events'
 import '../../style/keyboard.css'
 import 'pepjs'
-import {Roll} from '../roll/Roll.js'
-import {Note} from './Note.js'
+import {Roll} from '../roll/Roll'
+import {Note} from './Note'
 
 const offsets = [0, 0.5, 1, 1.5, 2, 3, 3.5, 4, 4.5, 5, 5.5, 6]
 

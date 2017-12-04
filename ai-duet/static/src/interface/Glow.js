@@ -15,7 +15,7 @@
  */
 
 import '../../style/glow.css'
-import Tone from '../../node_modules/tone/Tone/core/Tone.js'
+import Tone from '../../node_modules/tone/Tone/core/Tone'
 
 class Glow {
 	constructor(container){

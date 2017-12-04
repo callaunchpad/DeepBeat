@@ -50,7 +50,7 @@ module.exports = {
 				loader: 'babel', // 'babel-loader' is also a valid name to reference
                 include: [path.join(__dirname, './src'), resolve('src'), resolve('test')],
 				query: {
-					presets: ['es2015']
+                    presets: ['es2015']
 				}
 			},
 			{

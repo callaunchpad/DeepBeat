@@ -20,7 +20,7 @@ import events from 'events'
 
 const magentaLink = 'https://magenta.tensorflow.org/'
 const tfLink = 'https://www.tensorflow.org/'
-const toneLink = 'https://github.com/Tonejs/Tone.js'
+const toneLink = 'https://github.com/Tonejs/Tone'
 const sourceCode = 'https://github.com/googlecreativelab/aiexperiments-ai-duet'
 
 const blurbCopy = `Built by Yotam Mann with friends on the Magenta and Creative Lab teams at Google. 

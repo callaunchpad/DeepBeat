@@ -14,8 +14,8 @@
  * limitations under the License.
  */
 
-import Buffer from '../../node_modules/tone/Tone/core/Buffer.js'
-import Tone from '../../node_modules/tone/Tone/core/Tone.js'
+import Buffer from '../../node_modules/tone/Tone/core/Buffer'
+import Tone from '../../node_modules/tone/Tone/core/Tone'
 import events from 'events'
 const EventEmitter = events.EventEmitter
 import StartAudioContext from 'startaudiocontext'

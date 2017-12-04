@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-import Frequency from '../../node_modules/tone/Tone/type/Frequency.js'
-import Buffers from '../../node_modules/tone/Tone/core/Buffers.js'
-import MultiPlayer from '../../node_modules/tone/Tone/source/MultiPlayer.js'
-import Tone from '../../node_modules/tone/Tone/core/Tone.js'
-import AudioBuffer from '../../node_modules/tone/Tone/core/Buffer.js'
+import Frequency from '../../node_modules/tone/Tone/type/Frequency'
+import Buffers from '../../node_modules/tone/Tone/core/Buffers'
+import MultiPlayer from '../../node_modules/tone/Tone/source/MultiPlayer'
+import Tone from '../../node_modules/tone/Tone/core/Tone'
+import AudioBuffer from '../../node_modules/tone/Tone/core/Buffer'
 
 class Sampler{
 	constructor(baseUrl='', range=[21, 108]){
