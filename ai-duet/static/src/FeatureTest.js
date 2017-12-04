@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-import 'main.css'
+import '../style/main.css'
 import domReady from 'domready'
-import 'splash.css'
+import '../style/splash.css'
 import Modernizr from 'exports?Modernizr!Modernizr'
 
-require.ensure(['Main', 'notsupported.css'], (require) => {
+require.ensure(['Main', '../style/notsupported.css'], (require) => {
 
 	domReady(() => {
 
@@ -29,7 +29,7 @@ require.ensure(['Main', 'notsupported.css'], (require) => {
 
 		} else {
 
-			require('notsupported.css')
+			require('../style/notsupported.css')
 
 			const text = document.createElement('div')
 			text.id = 'notsupported'

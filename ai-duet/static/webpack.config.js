@@ -21,7 +21,7 @@ var PROD = process.argv.indexOf('-p') !== -1
 module.exports = {
 	'context': __dirname,
 	entry: {
-		'Main': 'src/FeatureTest',
+		'Main': './src/',
 	},
 	output: {
 		filename: './build/[name].js',
